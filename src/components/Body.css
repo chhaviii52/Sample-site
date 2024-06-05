@@ -1,0 +1,70 @@
+.body{
+  width: 100%;
+height: 750px;
+  background-image: url('image.svg');
+background-size: cover;
+display: flex;
+
+gap: 10%;
+}
+.text{
+  width: 45%;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100%;
+ 
+  margin-left: 100px;
+}
+.image{
+  width: 50%;
+}
+.big{
+ 
+ color: white;
+  height: 30%;
+  margin-top: 130px;
+  font-size: 60px;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+.small{
+height: 20%;
+width: 820.35px;
+padding: 5px 5px;
+color: rgb(201, 200, 200);
+font-size: 20px;
+
+}
+.img11{
+  height: 90%;
+  width: 90%;
+  float: right;
+}
+.rest{
+  height: 40%;
+
+  display: flex;
+  
+}
+.get{
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 30px;
+  padding: 1rem;
+margin-top: 1px;
+height: 40px;
+margin: 85px;
+}
+.get:hover{
+  background: linear-gradient(to bottom, #cc66ff 0%, #ff99cc 100%);
+}
+.img1222{
+  margin-top: 35px;
+  margin-right: 120px;
+  height: 200px;
+  width: 200px;
+}

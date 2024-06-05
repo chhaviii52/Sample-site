@@ -1,0 +1,38 @@
+.allReview{
+    width: 100%;
+    height: 700px;
+    border:black;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:200px;
+    padding-left: 100px;
+    gap: 30px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.mainhead{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.single{
+   height: 400px;
+   width: 380px;
+   border-radius: 40px;
+   background-color: rgb(242, 226, 244);
+}
+.people{
+    height: 300px;
+    width: 320px;
+    border-radius: 40px;
+    padding-top: 16px;
+}
+.single:hover{
+    transform: scale(1.1);
+}

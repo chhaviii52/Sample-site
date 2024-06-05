@@ -1,0 +1,131 @@
+
+.navbar{
+  
+  width: 100vw;
+  color: white;
+  background-color: hsl(272, 82%, 7%);
+  height: 70px;
+  position: fixed;
+  display: flex;
+}
+.part1{
+  
+  height: 100%;
+  width: 25%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  height: 32px;
+  width: 150px;
+
+}
+.part2{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p2{
+  height: 100%;
+  width: 92.64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#product{
+  width: 92.64px;
+  height: 60px;
+  font-size: 16px;
+}
+#industry{
+  width: 85.94px;
+  height: 70px;
+  font-size: 16px;
+}
+#custom{
+  height: 70px;
+  width: 150.59px;
+  font-size: 16px;
+}
+#pricing{
+width: 77.85px;
+height: 70px;
+font-size: 16px;
+}
+#about{
+  width: 72.4px;
+  height: 70px;
+  font-size: 16px;
+}
+#blog{
+  width: 62.03px;
+  height: 70px;
+  font-size: 16px;
+
+}
+.part3{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#login{
+  width: 109.29px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ color:  rgb(159 110 237) ;
+ font-weight: 700;
+}
+#login:hover{
+  color: white;
+  transition:color 3s;
+  cursor: pointer;
+}
+#contact{
+border-radius: 30px;
+background-color:  hsla(271, 97%, 57%, 0.767);;
+width: 118.38px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: linear-gradient(157deg, var(--salmon), var(--medium-purple));
+font-size: 16px;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 800;
+}
+.p2:hover{
+  color: rgb(212, 163, 99);
+
+  cursor: pointer;
+}
+#contact:hover{
+  color: black;
+  border: black solid 1px;
+  cursor: pointer;
+}
+
+
+@media (max-width:900px){
+    .navbar{
+         position: fixed;
+         
+         background-color: hsl(273, 67%, 19%) ;
+        
+         width: 200px;
+        
+         transition: 0.5s;
+     }
+     ul li{
+      display: block;
+     
+     }
+}
